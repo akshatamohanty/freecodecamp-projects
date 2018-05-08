@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  background-color: #FAFBFC;
+}
+
+header {
+  height: 35px;
+  background-color: white;
+  border-bottom: 1px solid #DBE2E8;
+  padding: 20px 60px 20px 60px;
+  line-height: 80px;
+}
+header .logo {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+}
+header .navigation {
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  font-weight: 300;
+}
+header .navigation span {
+  margin: 0px 10px 0px 10px;
+}
+
+.content {
+  width: 30%;
+  min-width: 250px;
+  margin: 5px 35% 0px 35%;
+}
+.content .subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: #7D97AD;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+}
+.content .main-title {
+  text-align: center;
+  color: #2E3D49;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+.content .key-container {
+  border: 1px solid #7D97AD;
+  padding: 10px 10px;
+  background-color: white;
+  text-align: center;
+}
+.content .key-container .item {
+  text-align: center;
+  margin: 10px 3% 10px 3%;
+  background-color: #DBE2E8;
+  width: 19%;
+  height: 45px;
+  font-size: 18px;
+  line-height: 45px;
+  display: inline-block;
+}
+.content .key-container .item.AC {
+  background-color: #222;
+  color: white;
+}
+.content .key-container .item:hover {
+  background-color: #222;
+  color: white;
+}
+.content .header-container {
+  height: 75px;
+  text-transform: uppercase;
+  color: #7D97AD;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 37px;
+  text-align: right;
+  border: 1px solid #7D97AD;
+}
+.content .header-container .last_operation {
+  margin: 0px 20px;
+  height: 50%;
+  font-size: 14px;
+  line-height: 37px;
+}
+.content .header-container .current_operation {
+  margin: 0px 20px;
+  font-size: 18px;
+  height: 50%;
+}

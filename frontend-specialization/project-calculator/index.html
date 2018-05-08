@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator-FreeCodeCamp</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body ng-app='calculator'>
+  <header>
+<!--     <div class='logo'>LOGO</div>
+    <div class='navigation'>
+      <span>Option 1</span>
+      <span>Option 2</span>
+    </div> -->
+  </header>
+  
+  <div class='content' ng-controller='calc'>
+    <div class='subtitle'>FreeCodeCamp</div>
+    <div class='main-title'>Calculator</div>
+    <div class='item-container'>
+      <div class='header-container'>
+        <div class='last_operation'>{{last_operation}}</div>
+        <div class='current_operation'>{{current_operation}}</div>
+      </div>
+      <div class='key-container'>
+          <div class='item' ng-class='key' ng-repeat='key in keys' ng-click='clicked(key)'>
+            {{key}}
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

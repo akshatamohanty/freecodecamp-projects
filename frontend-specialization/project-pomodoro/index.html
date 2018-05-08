@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro-FreeCodeCamp</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header>FreeCodeCamp</header>
+<body class='clock' ng-app='pomodoro' ng-controller='pomoController'>
+  <div class='settings'>
+    <div class='break-setting'>
+      <span id='break-minus' class='control' ng-click='break_change(-1)'>-</span>             <h3>{{break}}</h3>
+      <span id='break-plus'  class='control' ng-click='break_change(1)'>+</span>
+    </div>
+    <div class='session-setting'>
+      <span id='session-minus'  class='control'  ng-click='session_change(-1)'>-</span>
+      <h3>{{session}}</h3>
+      <span id='session-plus'  class='control'  ng-click='session_change(1)'>+</span>
+    </div>
+  </div>
+  <div class='container'>
+    <div class='timer control' ng-click='start()'>{{time}}</div>
+    <div class='controls'>
+      <span id='pause' class='control' ng-click='pause()'>||</span>
+      <span id='stop' class='control' ng-click='stop()'></span>
+    </div>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>TicTacToe-FreeCodeCamp</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+  <div class='content'>
+    <div class='info'>
+      Tic Tac Toe 
+      <span><button id='reset'> x </button></span>
+    </div>
+    <div class='board'>
+      <div class='playarea'>
+        <div class='message-container'>
+            <span id='start-play'>Ready when you are!</span>
+            <span class='message hide'  id='pick'>Choose your warrior!</span>
+            <span class='message hide'  id='lost'>Oops... The computer wins!</span>
+            <span class='message hide' id='win'>Bravo! Victory</span>
+            <span class='message hide' id='draw'>Hmmm... It was a draw</span>
+          <br>
+            <button class='control' id='start'> Start </button>
+            <button class='control hide' id='reset'> Reset </button>
+            <button class='control hide choice' id='x'> X </button>
+            <button class='control hide choice' id='o'> O </button>
+        </div>
+        <div class='cell-container hide'>
+          <div class='cell' id='1'></div>
+          <div class='cell' id='2'></div>
+          <div class='cell' id='3'></div>
+          <div class='cell' id='4'></div>
+          <div class='cell' id='5'></div>
+          <div class='cell' id='6'></div>
+          <div class='cell' id='7'></div>
+          <div class='cell' id='8'></div>
+          <div class='cell' id='9'></div>
+        </div>
+      </div>
+      <div class='score-area hide'>
+        <div class='player score'>
+          Player -  0
+        </div>
+        <div class='computer score'>
+          Computer - 0
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  FreeCodeCamp
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
